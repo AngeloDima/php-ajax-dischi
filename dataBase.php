@@ -1,6 +1,6 @@
 <?php
 
-$database = [
+$dataBase = [
     [
         'title' => 'New Jersey',
         'author' => 'Bon Jovi',
@@ -8,6 +8,7 @@ $database = [
         'poster' => 'https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg',
         'genre' => 'Rock'
     ],
+
     [
         'title' => 'Live at Wembley 86',
         'author' => 'Queen',
@@ -15,6 +16,7 @@ $database = [
         'poster' => 'https://images-na.ssl-images-amazon.com/images/I/71g40mlbinL._SX355_.jpg',
         'genre' => 'Pop'
     ],
+    
     [
         'title' => 'Ten\'s Summoner\'s Tales',
         'author' => 'Sting',

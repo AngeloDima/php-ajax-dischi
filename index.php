@@ -9,10 +9,32 @@
 <body>
 <?php
 include "dataBase.php";
-
-
-
-
+foreach($dataBase as $album){
 ?>
+
+
+
+
+<div>
+    <?php
+     include 'card.php'
+     ?>
+</div>
+
+
+
+<?php
+}
+?>
+
+
+
+
+    
+
+
+
+
+
 </body>
 </html>
