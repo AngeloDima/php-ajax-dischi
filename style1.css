@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+h2{
+    font-size: 1rem;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 100px 480px;
+}
+
+.container{
+    background-color: rgba(255, 0, 0, 0.349);
+    width: 100%;
+}
+
+.card-album{
+    width: 100%;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.image img{
+    max-width: 250px;
+}
